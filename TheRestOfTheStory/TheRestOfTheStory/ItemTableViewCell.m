@@ -10,6 +10,14 @@
 
 @implementation ItemTableViewCell
 
+-(instancetype)init{
+    self = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([ItemTableViewCell class]) owner:nil options:nil][0];
+    
+    
+    
+    return self;
+}
+
 - (void)awakeFromNib
 {
     // Initialization code

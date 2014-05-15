@@ -7,6 +7,7 @@
 //
 
 #import "TestViewController.h"
+#import "SecondViewController.h"
 
 @interface TestViewController ()
 
@@ -27,12 +28,24 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.title = @"Test";
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)didTapShowSecondVC:(id)sender {
+    SecondViewController *secondVC = [[SecondViewController alloc] initWithNibName:NSStringFromClass([SecondViewController class]) bundle:nil];
+    
+    //One way to do it...
+    [self presentViewController:secondVC animated:YES completion:nil];
+}
+- (IBAction)didTapSecondVCWithNav:(id)sender {
+    SecondViewController *secondVC = [[SecondViewController alloc] initWithNibName:NSStringFromClass([SecondViewController class]) bundle:nil];
+    
+    [self.navigationController pushViewController:secondVC animated:YES];
 }
 
 @end

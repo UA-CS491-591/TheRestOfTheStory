@@ -19,6 +19,15 @@
 		86B03FC1192501A5002029D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B03FA9192501A5002029D3 /* UIKit.framework */; };
 		86B03FC9192501A5002029D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86B03FC7192501A5002029D3 /* InfoPlist.strings */; };
 		86B03FCB192501A5002029D3 /* TheRestOfTheStoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B03FCA192501A5002029D3 /* TheRestOfTheStoryTests.m */; };
+		86B03FD819250210002029D3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B03FD619250210002029D3 /* TestViewController.m */; };
+		86B03FD919250210002029D3 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B03FD719250210002029D3 /* TestViewController.xib */; };
+		86B03FDF1925026E002029D3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B03FDD1925026E002029D3 /* SecondViewController.m */; };
+		86B03FE01925026E002029D3 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B03FDE1925026E002029D3 /* SecondViewController.xib */; };
+		86B03FE519250445002029D3 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B03FE319250445002029D3 /* ThirdViewController.m */; };
+		86B03FE619250445002029D3 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B03FE419250445002029D3 /* ThirdViewController.xib */; };
+		86B03FEB19250954002029D3 /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B03FE919250954002029D3 /* ItemTableViewCell.m */; };
+		86B03FEC19250954002029D3 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B03FEA19250954002029D3 /* ItemTableViewCell.xib */; };
+		86B03FEE19250B30002029D3 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86B03FED19250B30002029D3 /* cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,19 @@
 		86B03FC6192501A5002029D3 /* TheRestOfTheStoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheRestOfTheStoryTests-Info.plist"; sourceTree = "<group>"; };
 		86B03FC8192501A5002029D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86B03FCA192501A5002029D3 /* TheRestOfTheStoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheRestOfTheStoryTests.m; sourceTree = "<group>"; };
+		86B03FD519250210002029D3 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		86B03FD619250210002029D3 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		86B03FD719250210002029D3 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		86B03FDC1925026E002029D3 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		86B03FDD1925026E002029D3 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		86B03FDE1925026E002029D3 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		86B03FE219250445002029D3 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		86B03FE319250445002029D3 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		86B03FE419250445002029D3 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		86B03FE819250954002029D3 /* ItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTableViewCell.h; sourceTree = "<group>"; };
+		86B03FE919250954002029D3 /* ItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTableViewCell.m; sourceTree = "<group>"; };
+		86B03FEA19250954002029D3 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		86B03FED19250B30002029D3 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +131,8 @@
 			children = (
 				86B03FB4192501A5002029D3 /* AppDelegate.h */,
 				86B03FB5192501A5002029D3 /* AppDelegate.m */,
+				86B03FE719250936002029D3 /* Views */,
+				86B03FD4192501F8002029D3 /* Controllers */,
 				86B03FB7192501A5002029D3 /* Images.xcassets */,
 				86B03FAC192501A5002029D3 /* Supporting Files */,
 			);
@@ -118,6 +142,7 @@
 		86B03FAC192501A5002029D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				86B03FED19250B30002029D3 /* cat.jpg */,
 				86B03FAD192501A5002029D3 /* TheRestOfTheStory-Info.plist */,
 				86B03FAE192501A5002029D3 /* InfoPlist.strings */,
 				86B03FB1192501A5002029D3 /* main.m */,
@@ -142,6 +167,56 @@
 				86B03FC7192501A5002029D3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		86B03FD4192501F8002029D3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				86B03FE11925043D002029D3 /* Third */,
+				86B03FDB1925025A002029D3 /* Second */,
+				86B03FDA19250252002029D3 /* Test */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		86B03FDA19250252002029D3 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				86B03FD519250210002029D3 /* TestViewController.h */,
+				86B03FD619250210002029D3 /* TestViewController.m */,
+				86B03FD719250210002029D3 /* TestViewController.xib */,
+			);
+			name = Test;
+			sourceTree = "<group>";
+		};
+		86B03FDB1925025A002029D3 /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				86B03FDC1925026E002029D3 /* SecondViewController.h */,
+				86B03FDD1925026E002029D3 /* SecondViewController.m */,
+				86B03FDE1925026E002029D3 /* SecondViewController.xib */,
+			);
+			name = Second;
+			sourceTree = "<group>";
+		};
+		86B03FE11925043D002029D3 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				86B03FE219250445002029D3 /* ThirdViewController.h */,
+				86B03FE319250445002029D3 /* ThirdViewController.m */,
+				86B03FE419250445002029D3 /* ThirdViewController.xib */,
+			);
+			name = Third;
+			sourceTree = "<group>";
+		};
+		86B03FE719250936002029D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86B03FE819250954002029D3 /* ItemTableViewCell.h */,
+				86B03FE919250954002029D3 /* ItemTableViewCell.m */,
+				86B03FEA19250954002029D3 /* ItemTableViewCell.xib */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +294,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B03FE01925026E002029D3 /* SecondViewController.xib in Resources */,
 				86B03FB0192501A5002029D3 /* InfoPlist.strings in Resources */,
+				86B03FD919250210002029D3 /* TestViewController.xib in Resources */,
+				86B03FE619250445002029D3 /* ThirdViewController.xib in Resources */,
+				86B03FEC19250954002029D3 /* ItemTableViewCell.xib in Resources */,
+				86B03FEE19250B30002029D3 /* cat.jpg in Resources */,
 				86B03FB8192501A5002029D3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +319,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B03FEB19250954002029D3 /* ItemTableViewCell.m in Sources */,
+				86B03FDF1925026E002029D3 /* SecondViewController.m in Sources */,
+				86B03FE519250445002029D3 /* ThirdViewController.m in Sources */,
+				86B03FD819250210002029D3 /* TestViewController.m in Sources */,
 				86B03FB6192501A5002029D3 /* AppDelegate.m in Sources */,
 				86B03FB2192501A5002029D3 /* main.m in Sources */,
 			);
