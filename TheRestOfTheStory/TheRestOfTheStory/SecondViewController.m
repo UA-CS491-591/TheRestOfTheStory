@@ -12,7 +12,7 @@
 #import "DataSingleton.h"
 
 @interface SecondViewController ()
-@property NSMutableArray *toDoList;
+@property NSArray *toDoList;
 @end
 
 @implementation SecondViewController
@@ -32,7 +32,8 @@
     // Do any additional setup after loading the view from its nib.
     self.title = @"Second";
     
-    _toDoList = [[DataSingleton sharedInstance].dataArray mutableCopy];
+    //Accessing properties on a singleton
+    _toDoList = [DataSingleton sharedInstance].dataArray;
 }
 
 - (void)didReceiveMemoryWarning
