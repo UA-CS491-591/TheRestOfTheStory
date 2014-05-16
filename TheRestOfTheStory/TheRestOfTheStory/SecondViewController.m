@@ -9,6 +9,7 @@
 #import "SecondViewController.h"
 #import "ThirdViewController.h"
 #import "ItemTableViewCell.h"
+#import "DataSingleton.h"
 
 @interface SecondViewController ()
 @property NSMutableArray *toDoList;
@@ -31,10 +32,7 @@
     // Do any additional setup after loading the view from its nib.
     self.title = @"Second";
     
-    _toDoList = [NSMutableArray array];
-    [_toDoList addObject:@"Item 1"];
-    [_toDoList addObject:@"Item 2"];
-    [_toDoList addObject:@"Item 3"];
+    _toDoList = [[DataSingleton sharedInstance].dataArray mutableCopy];
 }
 
 - (void)didReceiveMemoryWarning

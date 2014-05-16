@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8690E431192657FF00F0D6A6 /* DataSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8690E430192657FF00F0D6A6 /* DataSingleton.m */; };
 		86B03FA6192501A5002029D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B03FA5192501A5002029D3 /* Foundation.framework */; };
 		86B03FA8192501A5002029D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B03FA7192501A5002029D3 /* CoreGraphics.framework */; };
 		86B03FAA192501A5002029D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B03FA9192501A5002029D3 /* UIKit.framework */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8690E42F192657FF00F0D6A6 /* DataSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSingleton.h; sourceTree = "<group>"; };
+		8690E430192657FF00F0D6A6 /* DataSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSingleton.m; sourceTree = "<group>"; };
 		86B03FA2192501A5002029D3 /* TheRestOfTheStory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheRestOfTheStory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B03FA5192501A5002029D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		86B03FA7192501A5002029D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -96,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8690E42E1926578A00F0D6A6 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				8690E42F192657FF00F0D6A6 /* DataSingleton.h */,
+				8690E430192657FF00F0D6A6 /* DataSingleton.m */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
 		86B03F99192501A5002029D3 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +143,7 @@
 			children = (
 				86B03FB4192501A5002029D3 /* AppDelegate.h */,
 				86B03FB5192501A5002029D3 /* AppDelegate.m */,
+				8690E42E1926578A00F0D6A6 /* Singletons */,
 				86B03FE719250936002029D3 /* Views */,
 				86B03FD4192501F8002029D3 /* Controllers */,
 				86B03FB7192501A5002029D3 /* Images.xcassets */,
@@ -319,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8690E431192657FF00F0D6A6 /* DataSingleton.m in Sources */,
 				86B03FEB19250954002029D3 /* ItemTableViewCell.m in Sources */,
 				86B03FDF1925026E002029D3 /* SecondViewController.m in Sources */,
 				86B03FE519250445002029D3 /* ThirdViewController.m in Sources */,
@@ -521,6 +535,7 @@
 				86B03FD0192501A5002029D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86B03FD1192501A5002029D3 /* Build configuration list for PBXNativeTarget "TheRestOfTheStoryTests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +544,7 @@
 				86B03FD3192501A5002029D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

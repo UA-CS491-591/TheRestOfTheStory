@@ -8,6 +8,7 @@
 
 #import "TestViewController.h"
 #import "SecondViewController.h"
+#import "DataSingleton.h"
 
 @interface TestViewController ()
 
@@ -29,6 +30,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     self.title = @"Test";
+    
+    [DataSingleton sharedInstance].dataArray = @[@"First Item", @"Second Item"];
 }
 
 - (void)didReceiveMemoryWarning
